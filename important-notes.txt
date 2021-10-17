@@ -1,0 +1,21 @@
+Association 
+
+1. one-to-one
+2. one-to-many
+3. many-to-many
+
+the hasOne Association
+the belongsTo Association
+the hasMany Association
+the belongsToMany Association
+
+
+Scope ===> reusable sql queries code code
+
+
+Polymorphic Associations
+1. one-to-many (table we use to understand this comment, video, image)
+
+2. many-to-many
+
+

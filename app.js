@@ -10,8 +10,20 @@ app.get('/', (req, res) => {
 });
 
 app.get('/add', userController.addUser);
-app.get('/crud', userController.crudOperation);
+app.get('/crudOperation', userController.crudOperation);
 app.get('/query', userController.queryData);
+app.get('/finder', userController.finder);
+app.get('/getterAndSetter', userController.getterAndSetter);
+app.get('/constraintsAndValidations', userController.constraintsAndValidations);
+app.get('/rawQueries', userController.rawQueries);
+
+app.get('/oneToOne', userController.oneToOne);
+app.get('/belongsTo', userController.belongsTo);
+
+app.get('/oneToMany', userController.oneToMany);
+
+app.get('/manyToMany', userController.manyToMany);
+app.get('/scopes', userController.scopes);
 
 app.listen(PORT, () => {
   console.log(`App is listening at http://localhost:${PORT}`);
